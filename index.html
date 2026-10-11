@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+    body{
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2c/Military_Symbol_-_Friendly_Unit_%28Solid_Light_1.5x1_Frame%29-_Unspecified_or_Composite_All-Arms_%28NATO_APP-6%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original'); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    h1{
+        display: inline-block;
+    }
+    h2{
+        display: inline-block;
+    }
+    h3{
+        display: inline-block;
+    }
+    dl{
+        display: inline-block;
+    }
+    ul{
+        display: inline-block;
+    }
+    ol{
+        display: inline-block;
+    }
+    section{
+        display: inline-block;
+    }
+    figure{
+        display: inline-block;
+    }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<div style="text-align: center;">
+</head>
+<body>
+    <br>
+    <h1>CompassTravel</h1>
+    <p><em>AnyThing, AnyWhere, AnyDirection</p></em>
+    <nav>
+        <a href="#Book a ride">Book a Ride</a> | <a href="#Our Vehicle">Our Vehicle</a> |  <a href="Map">Map</a> 
+        | <a href="Media">Media</a> | <a href="Schedule">Schedule</a> | <a href="Contact">Contact</a> <hr>
+
+
+        <form action="#" method="Post"></form>
+        <section id="book"><h2>Book a Ride</h2>
+
+        <fieldset>
+            <legend>Travel Detail:</legend>
+
+            <label for="FullName">Complete Full Name</label> <br>
+            <input type="text" id="FullName" name="fullname"> <br> 
+
+            <br>
+
+            <label for="PhoneNumber">Phone Number</label> <br>
+            <input type="tel" id="PhoneNumber" name="phonenumber"> <br>
+
+            <br>
+
+            <label for="Email">Email</label> <br>
+            <input type="email" id="Email" name="emailer"> <br>
+
+            <br>
+
+            <label for="PickUp">Pick-up Location:</label> <br>
+            <input type="text" id="PickUp" name="pickup" list="places" placeholder="Select Pick-up Location"> <br>
+
+            <br>
+
+            <label for="DropOff">Drop-off Location:</label> <br>
+            <input type="text" id="DropOff" name="dropoff" list="places" placeholder="Select Drop-off Destination"> <br>
+
+                <datalist id="places">
+                    <option value="Northern Hill Terminal"></option>
+                    <option value="Super Market Mall"></option>
+                    <option value="Fort Ronograd"></option>
+                    <option value="International Airport"></option>
+                    <option value="University"></option>
+                </datalist>
+
+                <br>
+                 
+            <label for="Passenger">Passengers capacity:</label>
+            <input type="number" id="Passengers" name="Passengers" min="1" max="15" value="1"> <br>
+                
+                <br>
+
+            <label for="Dates">Date:</label>
+            <input type="date" id="Dates" name="Dates">    
+
+                <br>
+
+            <label for="Times">Time:</label>
+            <input type="time" id="Times" name="Times"><br>
+
+                <br>
+
+            <label for="PaymentMethod">Payment Method:</label> <br>
+            <input type="radio" id="cash" name="PaymentMethod" value="Cash">
+            <label for="Cash">Cash</label>
+            <input type="radio" id="creditcard" name="PaymentMethod" value="CreditCard">
+            <label for="CreditCard">Credit Card</label> 
+            <input type="radio" id="electronicwallet" name="PaymentMethod" value="ElectronicWallet">
+            <label for="ElectronicWallet">Electronic Wallet</label> <br>
+            
+            <br>
+
+            <label for="ExtraandAccessability">Extra and Accessability</label> <br>
+            <input type="checkbox" id="Luggage" name="Luggage" value="Luggage">
+            <label for="Luggage">Luggage</label> <br>
+            <input type="checkbox" id="ChildSeat" name="ChildSeat" value="Childseat">
+            <label for="Childset">Child Seat</label> <br>
+            <input type="checkbox" id="WheelChair" name="WheelChair" value="WheelChair">
+            <label for="WheelChair">Wheel Chair Accessible</label> <br>
+
+            <br>
+            
+            <input type="checkbox" id="Terms" name="Terms" value="Terms">
+            <label for="TermsCondition">I agree to the <a href="#terms-info">Terms & Condition</a></label>
+
+            <p><button type="submit">Book Now</button type="reset"></p>
+
+        </fieldset>
+        </form>
+    </nav>
+
+    </section>
+
+    <hr>
+
+    <section id="fleet">
+        <h2>Our Vehicles</h2> <br>
+
+    <figure>
+        <img src="c:\Users\Admin\Downloads\taxi-removebg-preview.png" alt="blue_taxi" style="width:500px; height:500px;"> <br>
+        <figcaption><strong>Blue Standard taxi</strong> <br> Description: The most common type of vehicle on CompassTravel among in the city. Fast and practical travel.</figcaption>
+        <br> 
+
+        <img src="c:\Users\Admin\Downloads\blue_van.png" alt="blue_van" style="width:500px; height:500px;"> <br>
+        <figcaption><strong>Blue Van Taxi</strong> <br> Description: It's a medium size van taxi with 8 to 10 sits and great space suitable for extra luggage and full size family vacation. Execellence for full family and extra lugagge capacity.</figcaption>
+        <br>
+
+        <img src="c:\Users\Admin\Downloads\blue_bus-removebg-preview.png" alt="blue_bus" style="width:500px; height:500px;"> <br>
+        <figcaption><strong>Blue Bus</strong> <br> Description: It's a large size blue vehicle known Blue Bus suitable for the tourist, commuter, and every type of people needed the most for transportation, great capacity sit and great luggage in it.</figcaption>
+        <br>
+
+    </figure>
+
+    </section>
+
+    <br>
+    
+    <hr>
+
+    <section id="media"><h2>Media</h2> <br>
+
+    <h3>How does CompassTravel do</h3> <br>
+
+    <video width="500" controls poster="c:\Users\Admin\Downloads\Brown Modern Truck Rental Poster.png">
+        <source src="compasstravel.mp4" type="video/mp4">
+        <source src="compasstravel.ogv" type="video/ogg">
+    </video> <br>
+    
+    <h3>Driver notification</h3> <br>
+
+    <audio controls>
+        <source src="notifcation.mp3" type="audio/ogg">
+        <source src="notification.mp3" type="audio/mpeg">
+    </audio> <br>
+
+    <h3>Watch on youtube here</h3> <br>
+
+    <iframe
+        width="550"
+        height="300"
+        src="https://www.youtube.com/embed/VIDEO_ID"
+        title="Compass Travel video"
+        allowfullscreen>
+    </iframe>
+
+    </section>
+
+    <hr><br>
+
+    <section id="schedule"><h2>Shuttle Schedule</h2> <br>
+
+    <table border="1" cellpadding="6" cellspacing="0"><caption>Daily departure from Northern Hill Terminal</caption>
+        <thread>
+            <tr>
+                <th>Route</th>
+                <th>Departure</th>
+                <th>Arrival</th>
+                <th>Fare</th>
+            </tr>
+        </thread>
+        <tbody>
+            <tr>
+                <td>Northern Hill Terminal to Fort Ronograd</td>
+                <td>8:00 AM</td>
+                <td>12:00 PM</td>
+                <td>Pay: 20$</td>
+            </tr>
+            <tr>
+                <td>Northern Hill Terminal to Super Market Mall</td>
+                <td>9:00 AM</td>
+                <td>12:30 PM</td>
+                <td>Pay: 18$</td>
+            </tr>
+            <tr>
+                <td>Northern Hill Terminal to International Airport</td>
+                <td>10:00 AM</td>
+                <td>11:30 AM</td>
+                <td>Pay: 15$</td>
+            </tr>
+            <tr>
+                <td>Northern Hill Terminal To University</td>
+                <td>7:00 AM</td>
+                <td>8:00 AM</td>
+                <td>Pay: 7$</td>
+            </tr>
+        </tbody>
+    
+    </table>
+
+    <br>
+
+    <he>Check your current route</he> <br>
+        <select id="select" name="select">
+            <option value="Terminal - Ronograd">Terminal - Ronograd</option>
+            <option value="Terminal" - Super Mall>Terminal - Super Mall</option>
+            <option value="Terminal - Aiport">Terminal - Airport</option>
+            <option value="Terminal - University">Terminal - University</option>
+        </select>
+
+    </section>
+
+        <hr><br>
+
+    <section id="Contact"><h2>Contact & Feedback</h2> <br>
+
+    <form enctype="multipart/form-data"><fieldset>
+        <legend>Send Feedback</legend>
+        
+        <label for="FullName">Full name</label>
+        <input type="test" id="Fullname" name="fullname"> <br>
+
+        <br>
+        <label for="Rate our Ride">Rate our Ride</label>
+        <input type="range" min="1" max="5" value="5"> <br>
+
+        <br>
+        <label for="Topic:">Topic:</label>
+        <select id="selectcom" name="selectcom"> <br>
+            <br>
+
+            <option value="Compliment">Compliment</option>
+            <option value="Complaint">Complaint</option>
+            <option value="Lost Item">Lost Item</option>
+            <option value="Suggestion">Suggestion</option>
+        </select> <br>
+        
+        <br>
+
+        <button type="submit">Send Feedback</button type="reset">
+
+    </section>
+
+        <hr>
+
+        <section id="linkS">
+
+            <h2>Useful Links</h2> <br>
+        
+            <ul>
+                <li><a href="https://www.openstreetmap.org/#map=6/13.02/121.77">OpenStreetMap</a></li>
+                <li><a href="https://www.google.com/maps">Google Map</a></li>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="#top">Back to Top</a></li>
+            </ul>
+
+        </section> <br>
+
+        <section id="terms-info">
+            <h2>Terms & Codition</h2>
+            <details>
+                <summary>Reads the Terms</summary>
+                <ol>
+                    <li>Must provide correct and accurate information of your personal or someone else that will store your information.</li>
+                    <li>Should not use this as priavte property vehicle.</li>
+                    <li>Report if there are an issue without our employee or our company.</li>
+                </ol>
+            </details>
+        </section>
+
+    </fieldset></form>
+
+    <hr>
+    <h3>
+        CompassTravel Transport Co.<br>
+        107d Central Terminal, Pulau, Philippines <br>
+        Phone: <a href="tel:+09172504487">+63 917 250 4487</a> <br>
+        Email: <a href="malito:compasstra@gmail.com">compasstra@gmail.com</a> <br>
+    </h3>
+    <hr>
+
+    <h3>@2026 CompassTravel Transport Co. AnyThing, AnyWhere, AnyDirection</h3>
+</div>
+</body>
+</html>
